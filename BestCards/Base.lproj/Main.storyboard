@@ -55,6 +55,9 @@
                                     <segment title="Affinity"/>
                                     <segment title="Execution"/>
                                 </segments>
+                                <connections>
+                                    <action selector="firstSCPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="6Cz-w8-99F"/>
+                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="SkL-EY-l5Z">
                                 <rect key="frame" x="52" y="314" width="270" height="29"/>
@@ -65,6 +68,9 @@
                                     <segment title="Affinity"/>
                                     <segment title="Execution"/>
                                 </segments>
+                                <connections>
+                                    <action selector="secondSCPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="ZTm-Fe-Fpr"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qM3-3Y-vhh">
                                 <rect key="frame" x="159" y="365" width="57" height="48"/>
@@ -80,7 +86,9 @@
                     </view>
                     <connections>
                         <outlet property="firstCardLabel" destination="WDJ-ft-wh9" id="6qW-rR-893"/>
+                        <outlet property="firstSelectedSC" destination="cdR-FQ-8BZ" id="RNB-eQ-HKg"/>
                         <outlet property="secondCardLabel" destination="7hG-5G-i3h" id="HvU-zU-0Cr"/>
+                        <outlet property="secondSelectedSC" destination="SkL-EY-l5Z" id="plY-pR-qXi"/>
                         <outlet property="thirdCardLabel" destination="Gpn-jL-ip0" id="IFW-3o-IAg"/>
                     </connections>
                 </viewController>
